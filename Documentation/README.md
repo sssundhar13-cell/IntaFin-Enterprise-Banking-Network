@@ -1,17 +1,15 @@
 # Project Documentation
 
-This folder contains the project's written design and submission documentation.
-
-## Available documentation
-
-- [Implementation Overview](Implementation-Overview.md) — objective, sites, architecture and implementation boundaries.
-- [40-page report contents](Report-Contents.md) — page-by-page index of the formal submission report.
+This folder contains the formal 40-page project report and supporting submission documentation.
 
 ## Formal submission files
 
-The final 40-page PDF report and editable Word report have been prepared and checked. They are supplied as a separate upload package in this conversation. To make them directly downloadable from GitHub, upload both files into this folder using the filenames below:
+- [IntaFin Enterprise Banking Network — PDF Report](IntaFin_Enterprise_Banking_Network_Project_Report.pdf) — 40-page report for review and printing.
+- [IntaFin Enterprise Banking Network — Editable Word Report](IntaFin_Enterprise_Banking_Network_Project_Report_Editable.docx) — editable source document.
 
-- `IntaFin_Enterprise_Banking_Network_Project_Report.pdf`
-- `IntaFin_Enterprise_Banking_Network_Project_Report_Editable.docx`
+## Supporting documentation
 
-Keep the PDF and editable Word source together so reviewers can read the report or inspect the editable document.
+- [Implementation Overview](Implementation-Overview.md) — objective, sites, architecture and implementation boundaries.
+- [40-page Report Contents](Report-Contents.md) — page-by-page section index.
+
+The Packet Tracer simulation is stored separately in [../Packet-Tracer/](../Packet-Tracer/). Original topology, configuration and test screenshots are stored in [../Screenshots/](../Screenshots/).
