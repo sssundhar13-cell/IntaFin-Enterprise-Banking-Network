@@ -1,21 +1,40 @@
 # Screenshots and Project Evidence
 
-This folder is for original Packet Tracer evidence images.
+**11 original Packet Tracer screenshots uploaded and verified.**
 
-## Screenshot files prepared for this repository
+Open any image to view it at full resolution. The previews below are embedded directly from this folder.
 
-1. 01_Full_Network_Topology.png
-2. 02_India_Head_Office.png
-3. 03_Branch_Office.png
-4. 04_Madrid_Office.png
-5. 05_HSRP_Active_Standby.png
-6. 06_HSRP_Failover.png
-7. 07_ASA_Firewall_Routes.png
-8. 08.1_VLAN_and_ACL_Verification.png
-9. 08.2_VLAN_and_ACL_Verification.png
-10. 09_CCTV_and_IoT_Security.png
-11. 10_Inter_Country_Access_Test.png
+## 01 — Full Network Topology
+![Full Network Topology](./01_Full_Network_Topology.png)
 
-The 11 original images have been received and reviewed in the working conversation. They still need to be uploaded as binary PNG files to this GitHub folder. See Evidence-Register.md for the file-by-file status.
+## 02 — India Head Office
+![India Head Office](./02_India_Head_Office.png)
 
-Preserve the original screenshot contents and image quality. Only use the clean filenames listed above; do not alter the screenshots themselves.
+## 03 — Branch Office
+![Branch Office](./03_Branch_Office.png)
+
+## 04 — Madrid Office
+![Madrid Office](./04_Madrid_Office.png)
+
+## 05 — HSRP Active / Standby
+![HSRP Active Standby](./05_HSRP_Active_Standby.png)
+
+## 06 — HSRP Failover
+![HSRP Failover](./06_HSRP_Failover.png)
+
+## 07 — ASA Firewall Routes
+![ASA Firewall Routes](./07_ASA_Firewall_Routes.png)
+
+## 08.1 — VLAN and ACL Verification
+![VLAN and ACL Verification Part 1](./08.1_VLAN_and_ACL_Verification.png)
+
+## 08.2 — VLAN and ACL Verification
+![VLAN and ACL Verification Part 2](./08.2_VLAN_and_ACL_Verification.png)
+
+## 09 — CCTV and IoT Security
+![CCTV and IoT Security](./09_CCTV_and_IoT_Security.png)
+
+## 10 — Inter-Country Access Test
+![Inter-Country Access Test](./10_Inter_Country_Access_Test.png)
+
+See [Evidence-Register.md](./Evidence-Register.md) for the file index and purpose of each screenshot. Images are stored as original PNG evidence.
