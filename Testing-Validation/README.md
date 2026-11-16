@@ -28,3 +28,15 @@ Use these checks against the current saved simulation. Record the source device,
 6. Capture fresh screenshots and record observed results.
 
 A command example is not proof that a test passed. Record only results actually observed.
+
+
+## Additional evidence received (November 2026)
+
+The following screenshots were supplied for the project evidence set. The image files are prepared for upload; the repository evidence register records their upload state.
+
+- HSRP Active/Standby: primary router priority 110 is shown Active and backup router priority 100 is shown Standby, using virtual IP 200.0.0.1.
+- HSRP Failover: the primary router GigabitEthernet0/0/0 is administratively shut down; the backup router output shows it taking the Active state.
+- ASA1 private-WAN: ASA1 interface GigabitEthernet1/3 is shown as 172.16.5.2/30, with static routes pointing to 172.16.5.1.
+- The remaining screenshots cover the full topology, India Head Office, Branch Office, Madrid Office, VLAN/ACL output, CCTV/IoT and an India–Madrid endpoint test.
+
+These images are evidence of the displayed test state. Re-run the tests against the final saved Packet Tracer file before making broader high-availability claims.
