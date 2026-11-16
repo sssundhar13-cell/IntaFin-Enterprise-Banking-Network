@@ -79,7 +79,7 @@ This is a high-level logical view, not a physical cabling diagram.
 - Employee VLAN communication between India and Madrid was tested in the documented scenarios.
 - Selected server and CCTV destinations were intentionally restricted in the documented tests.
 - HSRP state and a failover test are documented for the relevant multilayer-switch pair.
-- The Head Office primary/backup WAN and firewall design was asymmetric in the recorded implementation. Do not claim complete router/firewall high availability until the backup private-WAN path is completed and retested.
+- Newly supplied evidence shows the India Head Office primary and backup ISR4331 routers with HSRP VIP 200.0.0.1, and a captured transition in which the backup router becomes Active after the primary interface is shut down. A separate ASA1 screenshot shows its private-WAN interface at 172.16.5.2 and static routes using 172.16.5.1 as next hop. This supports the recorded router HSRP failover and ASA1 private-WAN configuration; full end-to-end firewall-path failover should still be tested before claiming complete site-level high availability.
 - IoT endpoints and RFID readers were addressed in the physical-security design. Do not claim automated door, smoke-alarm or HVAC response unless the automation is configured and demonstrated.
 - Packet Tracer ASA diagnostic support is limited compared with real ASA software.
 
