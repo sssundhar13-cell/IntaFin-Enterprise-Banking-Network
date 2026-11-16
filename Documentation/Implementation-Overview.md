@@ -15,9 +15,16 @@ Design and simulate a multi-site banking network that separates business departm
 - Multilayer switches for inter-VLAN routing
 - Access switches for endpoint connectivity
 - VLAN-based department and security segmentation
-- HSRP for selected default-gateway redundancy
+- HSRP for selected default-gateway and edge-router redundancy
 - Static routes between site networks
 - DHCP services and helper addressing where configured
 
+## Recent evidence update
+- Head Office router screenshot evidence shows the primary ISR4331 at HSRP priority 110 / Active and the backup ISR4331 at priority 100 / Standby, using virtual IP 200.0.0.1.
+- The failover screenshot records the backup router becoming Active after the primary router interface is shut down.
+- ASA1 screenshot evidence shows GigabitEthernet1/3 configured as private-WAN at 172.16.5.2/30, with routes via 172.16.5.1.
+
 ## Implementation boundary
-This is a Packet Tracer simulation. The asymmetric backup private-WAN path and unverified IoT automation are recorded as limitations, not complete high availability or fully automated physical security.
+This is a Packet Tracer simulation. The captured HSRP transition and ASA1 private-WAN route configuration are evidence of those specific states. They do not prove every application flow or every firewall path remains available during every failure. Run end-to-end traffic tests through the backup path before claiming full site-level high availability.
+
+IoT endpoints and RFID readers are addressed in the physical-security design. Do not claim automated door, smoke-alarm or HVAC response unless the automation is configured and demonstrated.
