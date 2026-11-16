@@ -96,6 +96,37 @@ This is a high-level logical view, not a physical cabling diagram.
 BigLearn Training Institute, Tiruchirappalli  
 Computer Networking
 
+
+
+## Visual project evidence
+
+The following images are original Packet Tracer screenshots stored in the repository.
+
+### Multi-site topology
+![Full multi-site topology](Screenshots/01_Full_Network_Topology.png)
+
+### Site layouts
+| India Head Office | Branch Office |
+|---|---|
+| ![India Head Office](Screenshots/02_India_Head_Office.png) | ![Branch Office](Screenshots/03_Branch_Office.png) |
+
+![Madrid Office](Screenshots/04_Madrid_Office.png)
+
+### High availability and security evidence
+| HSRP active / standby | HSRP failover |
+|---|---|
+| ![HSRP active standby](Screenshots/05_HSRP_Active_Standby.png) | ![HSRP failover](Screenshots/06_HSRP_Failover.png) |
+
+![ASA firewall routes](Screenshots/07_ASA_Firewall_Routes.png)
+
+![VLAN and ACL verification](Screenshots/08.1_VLAN_and_ACL_Verification.png)
+
+![CCTV and IoT security](Screenshots/09_CCTV_and_IoT_Security.png)
+
+![Inter-country access test](Screenshots/10_Inter_Country_Access_Test.png)
+
+Browse the [complete screenshot gallery](Screenshots/README.md) and [evidence register](Screenshots/Evidence-Register.md).
+
 ## License
 
 MIT License. See LICENSE.
